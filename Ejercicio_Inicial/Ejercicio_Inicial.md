@@ -21,6 +21,8 @@ docker ps -a
 
 
 
+
+
 #### Pantallazo donde se vea el acceso al servidor web utilizando un navegador web (recuerda que tienes que acceder a la ip del ordenador donde tengas instalado docker)
 
 ![image-20220114185436564](Trabajo-Docker-2%C2%AAEvaluacion.assets/image-20220114185436564.png)
