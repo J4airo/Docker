@@ -1,0 +1,8 @@
+FROM ubuntu:[version]
+MAINTAINER jairo jairo@correo.com #Creador de la imagen
+ENV DEBIAN_FRONTEND noninteractive
+RUN apt-get update
+RUN apt-get -y install apache2 #Establecemos que no sea interactiva e instalamos el servidor web apache2
+COPY ./public_html /var/www/html
+expose 81 #expuesto en el puerto 81
+CMD /usr/sbin/apache2ctl -D FOREGROUND #ejecuta el sevicio 
